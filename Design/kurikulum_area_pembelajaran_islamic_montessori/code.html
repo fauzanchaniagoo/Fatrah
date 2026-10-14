@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed-variant": "#064c67", "error-container": "#ffdad6", "on-error-container": "#93000a", "on-primary-container": "#87bddc", "inverse-on-surface": "#f1f1f0", "primary-fixed-dim": "#98ceed", "on-secondary-fixed-variant": "#004e59", "secondary": "#006876", "surface-tint": "#2b6480", "on-tertiary-container": "#70c888", "inverse-primary": "#98ceed", "secondary-fixed-dim": "#80d3e3", "on-tertiary-fixed-variant": "#005227", "on-error": "#ffffff", "tertiary-fixed-dim": "#81d997", "on-tertiary-fixed": "#00210c", "on-primary-fixed": "#001e2c", "surface-container-low": "#f3f4f3", "surface-container": "#eeeeed", "surface-container-high": "#e8e8e7", "background": "#f9f9f8", "primary": "#00354a", "surface-bright": "#f9f9f8", "secondary-container": "#99ecfd", "tertiary": "#003a1a", "on-secondary-container": "#006d7b", "on-secondary": "#ffffff", "on-surface": "#1a1c1c", "secondary-fixed": "#a0efff", "primary-fixed": "#c3e8ff", "on-secondary-fixed": "#001f25", "surface-dim": "#dadad9", "primary-container": "#084d68", "outline-variant": "#c0c7cd", "surface-container-lowest": "#ffffff", "surface": "#f9f9f8", "on-surface-variant": "#41484d", "tertiary-container": "#005328", "on-tertiary": "#ffffff", "surface-container-highest": "#e2e2e2", "outline": "#71787d", "inverse-surface": "#2f3130", "error": "#ba1a1a", "tertiary-fixed": "#9cf6b1", "on-primary": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1.5rem", "gutter-mobile": "1rem", "space-lg": "1.5rem", "space-xs": "0.25rem", "space-xl": "2.5rem", "space-sm": "0.5rem", "margin-tablet": "1.75rem", "space-md": "1rem", "margin-mobile": "1rem", "space-2xl": "4rem", "margin": "2.5rem" }, "fontFamily": { "body-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "display-lg": ["Playfair Display"], "title-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "display-lg-mobile": ["Playfair Display"], "headline-lg-mobile": ["Playfair Display"], "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Playfair Display"], "body-sm": ["Plus Jakarta Sans"] }, "fontSize": { "body-lg": ["17px", {"lineHeight": "28px", "fontWeight": "400"}], "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700"}], "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600"}], "title-md": ["18px", {"lineHeight": "26px", "fontWeight": "600"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}], "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "display-lg-mobile": ["34px", {"lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "600"}], "headline-lg-mobile": ["26px", {"lineHeight": "34px", "fontWeight": "600"}], "body-md": ["15px", {"lineHeight": "24px", "fontWeight": "400"}], "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}], "body-sm": ["13px", {"lineHeight": "20px", "fontWeight": "400"}] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(8,77,104,0.05)]"><div class="h-20 max-w-[1280px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm focus:outline-none" data-path="kurikulum-dan-area" href="#"><img alt="Fithrah Islamic Montessori Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYNNM_ZTAzJKimVqStaIabcBw5_T68XKw1ARO9x5Q98MeCPT-ErdN8StNl9WFEvqefblqX8ajVLsU6qnxliXQy09zaHWHqfxLiUbYGvt3eKCrVLnYqDe5VGnWK8Gsgh5geGY35GBuYB_0tm2OrRK5Zv_LWRe4ZjfqGfiCYgOtzr0Pc18sIjoI9P7bLVS4y6WoGD0TKXV0Z2_EyKnIFDWvCUctUqPKQgDqZ5c12METu10I741YkI10SdQ"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-display-lg">Fithrah Montessori</span></a></div><div class="hidden xl:flex items-center flex-1 max-w-xs mx-space-md"><div class="w-full flex items-center bg-surface-container-low rounded-full px-space-md py-space-xs text-on-surface-variant focus-within:bg-surface-container-lowest focus-within:shadow-[0_2px_12px_rgba(8,77,104,0.08)] transition-all"><span class="material-symbols-outlined text-outline text-[18px] mr-space-xs">search</span><input class="w-full bg-transparent border-none outline-none font-body-sm text-body-sm text-on-surface placeholder:text-outline" placeholder="Cari materi fithrah, aparatus..." type="text"/></div></div><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center px-space-md py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md"><span class="material-symbols-outlined text-[15px] mr-1">stars</span>Akses Premium Berkah</div><button aria-label="Notifikasi" class="p-space-xs rounded-full hover:bg-surface-container-high hover:text-on-surface text-on-surface-variant transition-colors flex items-center justify-center"><span class="material-symbols-outlined text-[22px]">notifications</span></button><div class="flex items-center gap-space-sm pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmAX_k15I86FXRKcjmjks8f-6eBM7Oi3floJ3zZ0B_awhJpQ5RDCf3UdP7sZjkNqtUIJ7D47fR6fBu5mAXUWL2VImcKHtA4VT-4caA6d89LD3496EhWbnDaENK9IkP07s_Yf9i21aWfDlSV6ENqBNtS6FUT_igbxYtOOpXHPj3lZSOQq5qHXzpayyyxASSTvCX60Q_7WB7J4TC5W0dNR-KD62FlptiU2NtUIy4tyioEaH_xlFjAxbpdg"/><div class="hidden lg:flex flex-col"><span class="font-label-md text-label-md text-primary leading-tight">Ummu Maryam</span><span class="font-label-sm text-label-sm text-on-surface-variant">Ibu Pendidik</span></div></div></div></div><div class="w-full bg-surface-container-low/70"><div class="max-w-[1280px] mx-auto px-margin"><nav class="flex items-center gap-space-xs py-space-xs overflow-x-auto" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-full"><a aria-current="page" class="px-space-md py-1 transition-all whitespace-nowrap bg-primary-container text-on-primary-container font-semibold rounded-full" data-path="kurikulum-dan-area" href="#">Kurikulum &amp; Area</a><a class="px-space-md py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all whitespace-nowrap" data-path="dasbor-anak" href="#">Dasbor Anak</a><a class="px-space-md py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all whitespace-nowrap" data-path="printables-dan-pdf" href="#">Printables &amp; PDF</a><a class="px-space-md py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all whitespace-nowrap" data-path="video-presentasi" href="#">Video Presentasi</a><a class="px-space-md py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all whitespace-nowrap" data-path="room-setup" href="#">Room Setup</a><a class="px-space-md py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all whitespace-nowrap" data-path="komunitas-dan-tanya-ahli" href="#">Komunitas &amp; Tanya Ahli</a><a class="px-space-md py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all whitespace-nowrap" data-path="jurnal-syukur" href="#">Jurnal Syukur</a><a class="px-space-md py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all whitespace-nowrap" data-path="toko-edukasi" href="#">Toko Edukasi</a></nav></div></div></header><main class="w-full pt-20 bg-surface flex-1"><div class="flex flex-col w-full">
+<!-- Subtle Islamic Geometric Background Pattern -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute inset-0 pointer-events-none opacity-30">
+<svg class="w-full h-full text-secondary/10" fill="none" preserveaspectratio="none" viewbox="0 0 100 100">
+<pattern height="20" id="islamic-grid" patternunits="userSpaceOnUse" width="20">
+<path d="M10 0 L20 10 L10 20 L0 10 Z" fill="none" stroke="currentColor" stroke-width="0.3"></path>
+<circle cx="10" cy="10" fill="none" r="4" stroke="currentColor" stroke-width="0.3"></circle>
+<path d="M0 0 L20 20 M20 0 L0 20" stroke="currentColor" stroke-width="0.15"></path>
+</pattern>
+<rect fill="url(#islamic-grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<!-- Editorial Intro & Kurikulum Hero Filter -->
+<section class="relative z-10 max-w-[1280px] mx-auto px-margin pt-space-xl pb-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Text Column -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-space-xs self-start px-space-md py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md shadow-sm">
+<span class="material-symbols-outlined text-[16px]">eco</span>
+<span>Kurikulum Integrasi Fitrah &amp; Montessori Autentik</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-primary tracking-tight leading-tight">
+            Menumbuhkan Fitrah Keimanan &amp; <span class="italic text-secondary">Kemandirian Hakiki</span> Ananda
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            Sinergi agung antara metode prepared environment Maria Montessori dengan penanaman tauhid, adab nabawiyah, dan keterhubungan spiritual dengan ciptaan Allah SWT sejak usia dini.
+          </p>
+<!-- Quick Age Selector & Filter -->
+<div class="pt-space-sm flex flex-col sm:flex-row items-start sm:items-center gap-space-md">
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider font-semibold">Rentang Usia:</span>
+<div class="inline-flex p-1 bg-surface-container-low rounded-full shadow-inner gap-1" id="age-filter-bar">
+<button class="px-space-md py-1.5 rounded-full font-label-md text-label-md transition-all duration-200 bg-primary-container text-on-primary shadow-sm" data-age="all">
+                Semua Tahapan
+              </button>
+<button class="px-space-md py-1.5 rounded-full font-label-md text-label-md transition-all duration-200 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high" data-age="toddler">
+                Toddler (1.5 - 3 thn)
+              </button>
+<button class="px-space-md py-1.5 rounded-full font-label-md text-label-md transition-all duration-200 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high" data-age="preschool">
+                Preschool (3 - 6 thn)
+              </button>
+<button class="px-space-md py-1.5 rounded-full font-label-md text-label-md transition-all duration-200 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high" data-age="elementary">
+                Lower Elem (6 - 9 thn)
+              </button>
+</div>
+</div>
+</div>
+<!-- Metric & Progress Overview Card -->
+<div class="lg:col-span-5">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm relative overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary via-on-tertiary-container to-secondary-container"></div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed/50 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">auto_stories</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-primary">Status Kurikulum Keluarga</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Siklus Pembelajaran Triwulan 1</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low font-label-sm text-label-sm text-secondary font-semibold">Aktif</span>
+</div>
+<div class="grid grid-cols-2 gap-space-md mb-space-md">
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col">
+<span class="font-display-lg text-headline-md text-primary font-bold">28</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Aktivitas Terpandu</span>
+<span class="font-label-sm text-label-sm text-on-tertiary-fixed-variant mt-1">● 18 Selesai di Rumah</span>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col">
+<span class="font-display-lg text-headline-md text-secondary font-bold">4/4</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pilar Integrasi Aktif</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mt-1">Tahap Pembiasaan</span>
+</div>
+</div>
+<!-- Progress Track -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center font-label-sm text-label-sm text-on-surface-variant">
+<span>Kelengkapan Observasi Praktik</span>
+<span class="font-bold text-primary">76%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full rounded-full bg-gradient-to-r from-on-tertiary-container to-secondary w-[76%] transition-all duration-500"></div>
+</div>
+<p class="font-body-sm text-[12px] text-on-surface-variant italic mt-1">
+                "Kemandirian adalah pintu pertama adab ibadah yang khusyuk."
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Main Section: 4 Pillars of Islamic Montessori -->
+<section class="max-w-[1280px] mx-auto px-margin w-full pb-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider mb-space-xs font-semibold">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>4 Zona Prepared Environment</span>
+</div>
+<h2 class="font-display-lg text-headline-lg text-primary">
+          Area Eksplorasi &amp; Pembiasaan Adab
+        </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Setiap area dirancang berjenjang dengan apparatus natural kayu, berfokus dari gerak motorik halus hingga penghayatan tauhid yang kokoh.
+      </p>
+</div>
+<!-- 4 Cards Grid Layout with High Visual Polish -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-xl">
+<!-- AREA 1: Islamic Practical Life -->
+<article class="bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col overflow-hidden group">
+<div class="h-2 bg-secondary"></div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<!-- Header Badges -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-secondary-container/40 text-secondary flex items-center justify-center font-bold font-title-md">
+                  1
+                </span>
+<span class="font-title-md text-title-md text-primary font-bold">Islamic Practical Life</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+                Kemandirian &amp; Sunnah
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              Membangun koordinasi fisik, konsentrasi, kebersihan lahiriah, dan kesantunan (adab) harian yang berakar dari suri teladan Rasulullah ﷺ.
+            </p>
+<!-- Focus Modules -->
+<div class="space-y-space-sm mb-space-lg">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">clean_hands</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Praktik Wudhu Mandiri Berurutan</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Langkah demi langkah hemat air, menuang dari teko kendi tembikar mini, membasuh dengan tertib.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">restaurant</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Adab Makan Sesuai Sunnah</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Duduk bertumpu sopan, membaca basmalah, sendok pegangan tiga jari tangan kanan, dan merapikan alas saji piring.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">door_sliding</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Adab Ruang &amp; Menata Lingkungan</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Menyapu remah menggunakan serokan mini, menata sandal menghadap keluar, doa keluar &amp; masuk rumah.</p>
+</div>
+</div>
+</div>
+<!-- Material Requirements & Meta -->
+<div class="pt-space-md bg-surface-container-low/60 rounded-lg p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-on-surface font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">timer</span> Durasi: 15-20 Menit
+                </span>
+<span class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">star</span> Tingkat Mandiri: Tahap I-II
+                </span>
+</div>
+<div class="flex items-center gap-1.5 flex-wrap pt-1 font-label-sm text-[11px] text-on-surface-variant">
+<span class="font-semibold text-primary">Material Aparatus:</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Baki Kayu Mahoni</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Teko Kaca Mini 150ml</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Lap Katun Alami</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Sajadah Lipat Anak</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg flex items-center justify-between pt-space-sm">
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:text-primary transition-colors font-semibold" href="#">
+<span>Buka Panduan Presentasi Modul</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<span class="text-on-surface-variant font-label-sm text-label-sm">12 Modul Tersedia</span>
+</div>
+</div>
+</article>
+<!-- AREA 2: Sensorial Berbasis Tauhid -->
+<article class="bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col overflow-hidden group">
+<div class="h-2 bg-on-tertiary-container"></div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<!-- Header Badges -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-tertiary-fixed/60 text-on-tertiary-fixed flex items-center justify-center font-bold font-title-md">
+                  2
+                </span>
+<span class="font-title-md text-title-md text-primary font-bold">Sensorial Berbasis Tauhid</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">
+                Mengenal Al-Khaliq
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              Menajamkan panca indera ananda untuk mentafakuri kesempurnaan ciptaan Allah melalui tekstur, aroma herbal nabawi, gradasi bobot, dan suara alam.
+            </p>
+<!-- Focus Modules -->
+<div class="space-y-space-sm mb-space-lg">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-container text-[20px] mt-0.5">psychology</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Aroma Rempah Al-Qur'an (Smelling Bottles)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Membedakan wewangian nabawi: butiran habbatussauda, daun mint, kayu manis, zaitun, &amp; kasturi.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-container text-[20px] mt-0.5">nature</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Gradasi Tekstur Daun &amp; Batang Kering vs Segar</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Rabaan permukaan licin, kasap, berbulu lembut, menyadari hikmah pergantian musim ciptaan-Nya.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-container text-[20px] mt-0.5">volume_up</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Sound Cylinders: Gemercik Air &amp; Biji-bijian</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Memadankan tabung bunyi ritme air dan kerikil sungai, mengajarkan syukur pendengaran (as-Sam').</p>
+</div>
+</div>
+</div>
+<!-- Material Requirements & Meta -->
+<div class="pt-space-md bg-surface-container-low/60 rounded-lg p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-on-surface font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">timer</span> Durasi: 20-25 Menit
+                </span>
+<span class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">star</span> Tingkat Mandiri: Tahap II
+                </span>
+</div>
+<div class="flex items-center gap-1.5 flex-wrap pt-1 font-label-sm text-[11px] text-on-surface-variant">
+<span class="font-semibold text-primary">Material Aparatus:</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">6 Botol Kaca Amber</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Spesimen Daun Kering</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Tabung Kayu Bunyi</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Blindfold Kain Linen</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg flex items-center justify-between pt-space-sm">
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:text-primary transition-colors font-semibold" href="#">
+<span>Buka Panduan Presentasi Modul</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<span class="text-on-surface-variant font-label-sm text-label-sm">16 Modul Tersedia</span>
+</div>
+</div>
+</article>
+<!-- AREA 3: Bahasa & Hijaiyah Multisensori -->
+<article class="bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col overflow-hidden group">
+<div class="h-2 bg-primary"></div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<!-- Header Badges -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-primary-fixed/50 text-primary flex items-center justify-center font-bold font-title-md">
+                  3
+                </span>
+<span class="font-title-md text-title-md text-primary font-bold">Bahasa &amp; Fonik Hijaiyah</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold">
+                Kalamullah &amp; Literasi
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              Menghubungkan kepekaan bunyi fonik bahasa ibu dengan pengenalan huruf hijaiyah lewat sensori rabaan, persiapan mencintai Al-Qur'an sejak belia.
+            </p>
+<!-- Focus Modules -->
+<div class="space-y-space-sm mb-space-lg">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">menu_book</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Sandpaper Letters Hijaiyah (Huruf Amplas)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Menelusuri arah goresan huruf dengan jari telunjuk &amp; tengah sambil melafalkan makhraj yang fasih.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">spellcheck</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Movable Alphabet Arab &amp; Harakat Kayu</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Menyusun kosa kata sederhana (misal: 'Baitun', 'Qalamun') sebelum jari memegang alat tulis permanen.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">hearing</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Fonik Tiga Periode: Huruf &amp; Benda Konkret</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Kartu nomenklatur bergambar islami: Alif - Arnabun, Ba - Bismillaah, Jim - Jamalun.</p>
+</div>
+</div>
+</div>
+<!-- Material Requirements & Meta -->
+<div class="pt-space-md bg-surface-container-low/60 rounded-lg p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-on-surface font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">timer</span> Durasi: 15-20 Menit
+                </span>
+<span class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">star</span> Tingkat Mandiri: Tahap II-III
+                </span>
+</div>
+<div class="flex items-center gap-1.5 flex-wrap pt-1 font-label-sm text-[11px] text-on-surface-variant">
+<span class="font-semibold text-primary">Material Aparatus:</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Papan Amplas Hijaiyah 28 Pcs</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Baki Pasir Halus</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Kotak Alfabet Kayu Arab</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg flex items-center justify-between pt-space-sm">
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:text-primary transition-colors font-semibold" href="#">
+<span>Buka Panduan Presentasi Modul</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<span class="text-on-surface-variant font-label-sm text-label-sm">14 Modul Tersedia</span>
+</div>
+</div>
+</article>
+<!-- AREA 4: Budaya & Sirah (Islamic Culture) -->
+<article class="bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col overflow-hidden group">
+<div class="h-2 bg-on-secondary-container"></div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<!-- Header Badges -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-secondary-fixed/50 text-secondary flex items-center justify-center font-bold font-title-md">
+                  4
+                </span>
+<span class="font-title-md text-title-md text-primary font-bold">Budaya, Sains &amp; Sirah</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+                Peradaban &amp; Geografi
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              Mengenalkan ananda pada peta penciptaan bumi Allah, peradaban Islam yang gemilang, serta jejak keteladanan para Nabi dan Shahabat secara visual konkret.
+            </p>
+<!-- Focus Modules -->
+<div class="space-y-space-sm mb-space-lg">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">timeline</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Garis Waktu Sirah Nabawiyah (Timeline Cloth)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bentangan kain panjang interaktif: Tahun Gajah, Masa Menyusu di Bani Sa'ad, hingga Hijrah Madinah.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">public</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Peta Tiga Kota Suci &amp; Bentuk Daratan</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mengenal Makkah, Madinah, Al-Quds, dipadukan aparatus land and water forms (semenanjung, pulau, dan teluk).</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">nightlight</span>
+<div class="flex-1">
+<h4 class="font-title-md text-[15px] text-primary">Roda Fase Bulan (Hilal) &amp; Kalender Hijriyah</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Puzzle kayu interaktif peredaran bulan mengelilingi bumi dan penetapan bulan Ramadhan serta Syawal.</p>
+</div>
+</div>
+</div>
+<!-- Material Requirements & Meta -->
+<div class="pt-space-md bg-surface-container-low/60 rounded-lg p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-on-surface font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">timer</span> Durasi: 25-30 Menit
+                </span>
+<span class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">star</span> Tingkat Mandiri: Tahap II-III
+                </span>
+</div>
+<div class="flex items-center gap-1.5 flex-wrap pt-1 font-label-sm text-[11px] text-on-surface-variant">
+<span class="font-semibold text-primary">Material Aparatus:</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Puzzle Peta Dunia Kayu</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Kain Gulung Sirah Nabi</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">Diorama Mini Kabah Kayu</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg flex items-center justify-between pt-space-sm">
+<a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md hover:text-primary transition-colors font-semibold" href="#">
+<span>Buka Panduan Presentasi Modul</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<span class="text-on-surface-variant font-label-sm text-label-sm">18 Modul Tersedia</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Interactive Apparatus Showcase Gallery -->
+<section class="w-full bg-surface-container-low py-space-2xl">
+<div class="max-w-[1280px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center mb-space-xl">
+<div class="lg:col-span-8">
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase tracking-wider">Aesthetic &amp; Order</span>
+<h2 class="font-display-lg text-headline-lg text-primary mt-1">
+            Keindahan Rak Terbuka &amp; Material Alami
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-xl">
+            Maria Montessori menegaskan bahwa anak menyerap keteraturan dari apa yang dilihatnya. Berikut penataan realistis rak kurikulum di rumah.
+          </p>
+</div>
+<div class="lg:col-span-4 flex lg:justify-end">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-lowest shadow-sm font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+<span>Prinsip Zero-Clutter Ramah Anak</span>
+</div>
+</div>
+</div>
+<!-- 3 Card Visual Mosaic -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Photo Item 1 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group">
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A low wooden Montessori shelf in a bright, sunlit minimalist room, featuring neat Islamic wooden educational apparatus, natural baskets, and clean jars with spices, soft earth tones and teal accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPC2UXX6yMUun6U8il8mP6le0MZm38tnUxdNwfFNIfXML2lbeOJuIz-0s-ighpXwLalhNVwz0Wbk7ep4KXYfWsoMh9BwW6zdYILanA2pl_mKJy5I1Ag3MvIuT_BdTSqbpeqL_LMi-H_fpKdLFll5Uldm9pQh0FUoxx3wpp3TkQzPs8GHclQfvwqQhL9wQpqN08uU1-p5lVt93PY35azh0LEiHpDyZxuEQ3knpXJNEmboVaUs5S9BiiCQ"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm font-semibold">
+              Practical Life Corner
+            </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-primary">Rak Praktik Berwudhu &amp; Menuang</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Ditempatkan setinggi lutut balita dengan alas lap serap air dari linen murni.</p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-secondary font-label-sm text-label-sm font-semibold">
+<span>Tinggi Ideal: 45 cm</span>
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+</div>
+</div>
+</div>
+<!-- Photo Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group">
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A child peaceful working mat on the light wooden floor with Sandpaper Hijaiyah letters and wooden Arabic movable alphabet blocks, organized neatly in a beech wood tray with soft natural daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvyJbV2XMLFBrMtgkeixh-rOnEYBVMEz9xpyKgWF0u5Hr-zXECGnkeItls9vacy-EwSYYvyTnbSejszslrN38WX21spI071gYHCMFRqJpUSVFTlaPhWvUi9NCDJpyrTH3QAlQdly8KvP-bCPYTe10iFffHbpoxhfiIgCAZFmtCAEKgUb5uwA82QbxS18ho7dmj0CRqSrMaxXimBG8bAS5TtT1ipnKHnYhrY_F845E4NtmsmmYYZmpXag"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm font-semibold">
+              Sandpaper Letters Area
+            </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-primary">Alas Kerja Tikar Katun Hijaiyah</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Membatasi ruang kerja anak agar tidak berserakan dan melatih konsentrasi mandiri.</p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-secondary font-label-sm text-label-sm font-semibold">
+<span>Karpet Kerja: 60x80 cm</span>
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+</div>
+</div>
+</div>
+<!-- Photo Item 3 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group">
+<div class="relative h-56 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A calm nature exploration table with glass jars containing olive seeds, habbatus sauda, cinnamon sticks, pressed Quranic leaves, a miniature brass bowl, and magnifying glass in a serene Islamic home environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7YCizSxowrSnKYIBdJuR7arEHHIl-zRsNpZ7ijX3iJpN5kLUWn632rVniGvercOTiKEZHv5Se6Ll3nCAdyJucZqX9GibfhGW3w6UlfNoSuD8YgfVxB8Usn4EB65rSDpgs7T9mEHvGcmtJgtRRV0c5cGJNxr86qon2tf7UmJ5Gd_S5Ppx1DLWGjw1t0CBjmfTKM2_WzZQCPj6bmiqFSyvPeEDYUDzGRxr4RWRYyTB08WJs9ARgvoOCHg"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm font-semibold">
+              Tafakkur Table
+            </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-primary">Meja Eksplorasi Ciptaan Allah</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Mengganti objek botani setiap pekan sesuai tema fenomena alam yang sedang dipelajari.</p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-secondary font-label-sm text-label-sm font-semibold">
+<span>Rotasi Mingguan</span>
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Home Prepared Environment Guide (Pointers for Parents) -->
+<section class="max-w-[1280px] mx-auto px-margin py-space-2xl w-full">
+<div class="bg-surface-container-lowest rounded-xl p-space-xl shadow-sm relative overflow-hidden">
+<!-- Decorative Backdrop Graphic -->
+<div class="absolute -right-12 -bottom-12 w-64 h-64 rounded-full bg-secondary-fixed/20 pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-5">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider mb-space-xs font-semibold">
+<span class="material-symbols-outlined text-[18px]">home_pin</span>
+<span>Panduan Orang Tua di Rumah</span>
+</div>
+<h3 class="font-display-lg text-headline-lg text-primary leading-tight">
+            Menyiapkan Lingkungan Rumah yang <span class="italic text-secondary">Menumbuhkan Fitrah</span>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm mb-space-lg">
+            Tidak memerlukan ruangan mewah. Prinsip utama adalah aksesibilitas: memampukan anak melayani dirinya sendiri dengan bimbingan minim dari orang dewasa.
+          </p>
+<!-- Quote Callout -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">format_quote</span>
+<p class="font-display-lg italic text-[15px] text-primary leading-relaxed">
+              "Setiap anak terlahir di atas fitrah yang suci. Lingkungan yang tertata menenangkan jiwa mereka untuk menyerap hikmah kebaikan."
+            </p>
+</div>
+</div>
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-secondary/10 text-secondary flex items-center justify-center font-bold font-title-md">
+                1
+              </div>
+<h5 class="font-title-md text-[16px] text-primary font-bold">Keteraturan &amp; Jumlah Terbatas</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hanya letakkan 3-4 aktivitas per area di rak. Terlalu banyak pilihan memicu distorsi konsentrasi anak.</p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-secondary/10 text-secondary flex items-center justify-center font-bold font-title-md">
+                2
+              </div>
+<h5 class="font-title-md text-[16px] text-primary font-bold">Material Asli &amp; Mudah Pecah</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Gunakan cangkir kaca kecil dan piring keramik mini. Mengajarkan konsekuensi kehati-hatian (*itqan*).</p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-secondary/10 text-secondary flex items-center justify-center font-bold font-title-md">
+                3
+              </div>
+<h5 class="font-title-md text-[16px] text-primary font-bold">Ketinggian Mata Anak</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Gantungan handuk wudhu, sajadah kecil, dan cermin rias dipasang setinggi pandangan anak agar mudah dijangkau.</p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-secondary/10 text-secondary flex items-center justify-center font-bold font-title-md">
+                4
+              </div>
+<h5 class="font-title-md text-[16px] text-primary font-bold">Keheningan &amp; Doa Rutin</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ciptakan momen hening (*silence lesson*) sebelum beraktivitas, diawali basmalah dan pernafasan yang tenang.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Quick Action & Resource Banner -->
+<section class="max-w-[1280px] mx-auto px-margin pb-space-2xl w-full">
+<div class="bg-primary-container text-on-primary rounded-xl p-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg shadow-md">
+<div class="flex items-center gap-space-lg max-w-xl">
+<div class="hidden sm:flex w-14 h-14 rounded-full bg-secondary-fixed text-primary shrink-0 items-center justify-center">
+<span class="material-symbols-outlined text-[32px]">download_for_offline</span>
+</div>
+<div>
+<h3 class="font-display-lg text-headline-md font-bold text-white leading-tight">
+            Unduh Silabus Lengkap &amp; Matriks Capaian Fitrah
+          </h3>
+<p class="font-body-sm text-body-sm text-on-primary-container mt-1">
+            Panduan kurikulum 4 Area dalam format PDF printable (A4) lengkap dengan lembar observasi mingguan untuk Ummu &amp; Abu di rumah.
+          </p>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm w-full md:w-auto">
+<button class="w-full sm:w-auto px-space-lg py-space-sm rounded-full bg-secondary-container text-on-secondary-container hover:bg-secondary-fixed transition-all font-label-md text-label-md font-bold flex items-center justify-center gap-2 shadow-sm" id="download-syllabus-btn">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+<span>Unduh Silabus PDF (3.8 MB)</span>
+</button>
+<button class="w-full sm:w-auto px-space-lg py-space-sm rounded-full bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-white transition-all font-label-md text-label-md font-semibold flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">play_circle</span>
+<span>Tonton Video Tutorial</span>
+</button>
+</div>
+</div>
+</section>
+</div>
+<!-- Inline JavaScript for Age Filters & Interactive Feedback -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const filterButtons = document.querySelectorAll('#age-filter-bar button');
+    
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        // Toggle Active Styles
+        filterButtons.forEach(btn => {
+          btn.classList.remove('bg-primary-container', 'text-on-primary', 'shadow-sm');
+          btn.classList.add('text-on-surface-variant');
+        });
+        
+        this.classList.add('bg-primary-container', 'text-on-primary', 'shadow-sm');
+        this.classList.remove('text-on-surface-variant');
+
+        const age = this.getAttribute('data-age');
+        // Visual indicator response
+        const articleCards = document.querySelectorAll('article');
+        articleCards.forEach(card => {
+          card.style.opacity = '0.5';
+          setTimeout(() => {
+            card.style.opacity = '1';
+          }, 150);
+        });
+      });
+    });
+
+    const downloadBtn = document.getElementById('download-syllabus-btn');
+    if (downloadBtn) {
+      downloadBtn.addEventListener('click', function () {
+        const originalText = downloadBtn.innerHTML;
+        downloadBtn.innerHTML = `
+          <span class="material-symbols-outlined text-[18px] animate-spin">refresh</span>
+          <span>Menyiapkan Berkas...</span>
+        `;
+        setTimeout(() => {
+          downloadBtn.innerHTML = `
+            <span class="material-symbols-outlined text-[18px]">check_circle</span>
+            <span>Silabus Berhasil Diunduh!</span>
+          `;
+          setTimeout(() => {
+            downloadBtn.innerHTML = originalText;
+          }, 3000);
+        }, 1200);
+      });
+    }
+  });
+</script></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-2xl pt-space-2xl pb-space-xl"><div class="max-w-[1280px] mx-auto px-margin"><div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-gutter mb-space-2xl"><div class="lg:span-4 flex flex-col gap-space-md md:col-span-2 lg:col-span-4"><div class="flex items-center gap-space-sm"><span class="font-headline-md text-headline-md text-primary font-display-lg">Fithrah Montessori</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-sm">Menumbuhkan fithrah tauhid dan kemandirian ananda lewat lingkungan yang tertata, ketenangan (*sakinah*), dan eksplorasi alam yang penuh hikmah.</p><div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md"><span class="material-symbols-outlined text-[18px]">spa</span><span>Bismillah, mendidik dengan sadar &amp; sabar.</span></div></div><div class="lg:col-span-2 md:col-span-1 flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-primary">Pondasi Kurikulum</h4><nav class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="kurikulum-dan-area" href="#">Tawhid &amp; Alam</a><a class="hover:text-primary transition-colors" data-path="kurikulum-dan-area" href="#">Practical Life</a><a class="hover:text-primary transition-colors" data-path="kurikulum-dan-area" href="#">Sensorial &amp; Matematika</a><a class="hover:text-primary transition-colors" data-path="kurikulum-dan-area" href="#">Bahasa &amp; Budaya</a></nav></div><div class="lg:col-span-2 md:col-span-1 flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-primary">Dukungan Orang Tua</h4><nav class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="video-presentasi" href="#">Video Presentasi</a><a class="hover:text-primary transition-colors" data-path="printables-dan-pdf" href="#">Printable Mingguan</a><a class="hover:text-primary transition-colors" data-path="room-setup" href="#">Inspirasi Prepared Env</a><a class="hover:text-primary transition-colors" data-path="komunitas-dan-tanya-ahli" href="#">Konsultasi Pedagog</a></nav></div><div class="lg:col-span-4 md:col-span-4 flex flex-col gap-space-md"><h4 class="font-title-md text-title-md text-primary">Warta Printables &amp; Inspirasi</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Dapatkan kiriman modul Montessori Islami gratis dan catatan parenting setiap hari Kamis.</p><div class="flex items-center gap-space-xs"><input class="bg-surface rounded-full px-space-md py-space-xs font-body-sm text-body-sm text-on-surface flex-1 outline-none focus:ring-1 focus:ring-secondary" placeholder="Alamat email Ummu/Abu..." type="email"/><button class="bg-primary-container text-on-primary hover:bg-secondary transition-all px-space-lg py-space-xs rounded-full font-label-md text-label-md">Langganan</button></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-sm text-label-sm"><span>© 2025 Fithrah Islamic Montessori. Menjaga fitrah menuju ridha Ilahi.</span><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" href="#">Kebijakan Privasi</a><a class="hover:text-on-surface transition-colors" href="#">Etika Belajar</a><a class="hover:text-on-surface transition-colors" href="#">Hubungi Kami</a></div></div></div></footer></body></html>
